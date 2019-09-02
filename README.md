@@ -27,5 +27,5 @@
     Add an etherpad server: admin/etherpadlite/padserver/add/
     Add an etherpad group corresponding to the auth group: admin/etherpadlite/padgroup/add/
 
-5) Code deployed at https://signeasy1.azurewebsites.net/ . Css and js files are not properly in azure, but works properly on localhost and sometimes azure give quota limit exceeded , due to which it is not able to serve as azure credits are very less given during hackathon
+5) Code deployed at https://signeasy1.azurewebsites.net/ . css and js files are not properly loaded in azure, but works properly on localhost and sometimes azure give quota limit exceeded , due to which it is not able to serve as azure credits are very less given during hackathon
 
