@@ -27,7 +27,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['*']
 
-# SESSION_COOKIE_DOMAIN SESSION_COOKIE_DOMAIN = '.azurewebsites.net'
+SESSION_COOKIE_DOMAIN = 'localhost'
 
 
 
@@ -129,7 +129,14 @@ USE_TZ = True
 
 
 STATIC_ROOT = ''
-
 STATIC_URL = '/static/'
+STATICFILES_DIRS = (
+     os.path.join(BASE_DIR, "static"),    
+ )
 
-STATICFILES_DIRS = ( os.path.join('static'), )
+
+
+
+
+
+#STATICFILES_DIRS = ( os.path.join('static'), )

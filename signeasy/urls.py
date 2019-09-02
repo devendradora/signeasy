@@ -19,7 +19,7 @@ from django.contrib import admin
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
-     url(r'^', include('etherpadlite.urls')),
+    url(r'^', include('etherpadlite.urls')),
 
 #    url(r'^etherpad', include('etherpadlite.urls')),
 #  url(r'^accounts/profile/$', include('etherpadlite.urls')),
