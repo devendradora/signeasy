@@ -4,4 +4,4 @@
 /lib
 *.pyc
 venv/
-#db.sqlite3
+db.sqlite3
