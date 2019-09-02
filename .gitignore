@@ -1,0 +1,7 @@
+.Python
+/bin
+/include
+/lib
+*.pyc
+venv/
+db.sqlite3
