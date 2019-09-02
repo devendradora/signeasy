@@ -1,3 +1,5 @@
 {
-    "python.pythonPath": "venv\\Scripts\\python.exe"
+    "python.pythonPath": "venv\\Scripts\\python.exe",
+    "appService.defaultWebAppToDeploy": "/subscriptions/d7e1bd95-c274-40a6-8994-7e119c11d6b1/resourceGroups/appsvc_linux_centralus/providers/Microsoft.Web/sites/signeasy1",
+    "appService.deploySubpath": ""
 }
